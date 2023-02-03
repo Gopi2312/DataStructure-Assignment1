@@ -26,7 +26,6 @@ public class StudentTest
 		        age = sc.nextInt();
 		        logger.info("Student GPA:");
 		        gpa = sc.nextDouble();
-		        Student obj = new Student(name,age,gpa);
 		        arrlist.add(new Student(name,age,gpa));
     		}
     		else {
